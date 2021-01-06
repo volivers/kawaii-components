@@ -5,7 +5,7 @@ module.exports = {
     {
       name: 'Overview',
       content: 'docs/Overview.md',
-      // description: 'Welcome'
+      description: 'Welcome'
     },
     {
       name: 'Getting Started',
