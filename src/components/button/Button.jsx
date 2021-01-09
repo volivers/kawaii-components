@@ -6,7 +6,7 @@ const Button = ({ color, size, className }) => {
 
   const styles = {
     color,
-    // fontSize: Button.sizes[size],
+    size: Button.sizes[size],
     className: Button.classNames[className]
   };
 
@@ -22,25 +22,21 @@ Button.propTypes = {
    * Hex color
    */
   color: PropTypes.string,
-  /**
-   * Width size
-   * */
-  size: PropTypes.string,
-  // size: PropTypes.oneOf(['small', 'normal', 'large']),
+  size: PropTypes.oneOf(['small', 'normal', 'large']),
   className: PropTypes.oneOf(['primary', 'secondary'])
 };
 
 Button.defaultProps = {
   color: '#333',
-  size: '20px',
+  size: 'normal',
   className: 'primary'
 };
 
-// Button.sizes = {
-//   small: '10px',
-//   normal: '14px',
-//   large: '18px'
-// };
+Button.sizes = {
+  small: '10px',
+  normal: '14px',
+  large: '18px'
+};
 
 Button.classNames = {
   primary: 'primary',
