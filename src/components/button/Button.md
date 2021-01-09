@@ -1,3 +1,3 @@
 ```js
-<Button>Hover me</Button>
+<Button>Click me</Button>
 ```
