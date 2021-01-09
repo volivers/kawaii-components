@@ -1,7 +1,7 @@
 import React from 'react';
 
-  const BubbleButton = (props) => {
+  const Tag = (props) => {
   return <h1>Hello, {props.name}</h1>;
   }
 
-export default BubbleButton;
+export default Tag;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-  const DarumaAvatar = (props) => {
+  const Modal = (props) => {
   return <h1>Hello, {props.name}</h1>;
   }
 
-export default DarumaAvatar;
+export default Modal;

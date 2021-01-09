@@ -1,7 +1,7 @@
 import React from 'react';
 
-  const TastyToast = (props) => {
+  const Clock = (props) => {
   return <h1>Hello, {props.name}</h1>;
   }
 
-export default TastyToast;
+export default Clock;
