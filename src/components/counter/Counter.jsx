@@ -6,23 +6,21 @@ const Counter = (props) => {
 
   const [count, setCount] = useState(0);
 
-  const handleAddClick = () => {
+  const handlePlusClick = () => {
     setCount((prevCount) =>  prevCount + 1);
   };
 
-  const handleRemoveClick = () => {
-    if (count === 0) {
-      return
-    } else {
+  const handleMinusClick = () => {
+    if (count !== 0) {
       setCount((prevCount) =>  prevCount - 1);
     }
   };
 
   return (
-    <div>
+    <div className="counter">
+      <button onClick={handleMinusClick}>-</button>
       <p>{count}</p>
-      <button onClick={handleAddClick}>+</button>
-      <button onClick={handleRemoveClick}>-</button>
+      <button onClick={handlePlusClick}>+</button>
     </div>
   );
 }

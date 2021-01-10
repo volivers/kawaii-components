@@ -1,7 +1,7 @@
 import React from 'react';
 
-  const Toast = (props) => {
+  const Timer = (props) => {
   return <h1>Hello, {props.name}</h1>;
   }
 
-export default Toast;
+export default Timer;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-  const Clock = (props) => {
+  const Alert = (props) => {
   return <h1>Hello, {props.name}</h1>;
   }
 
-export default Clock;
+export default Alert;

@@ -1,10 +1,23 @@
-.root {
-	padding: 0.5em 1.5em;
-	color: #666;
-	background-color: #fff;
-	border: 1px solid currentColor;
-	border-radius: 0.3em;
+.flat {
+	padding: 16px 56px;
+	border-radius: 50px;
 	text-align: center;
 	vertical-align: middle;
+	font-weight: lighter;
+	letter-spacing: 1px;
 	cursor: pointer;
+	background-color: #6BE2E8;
+	border: none;
+}
+
+.outline {
+	padding: 16px 56px;
+	border-radius: 50px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #6BE2E8;
 }
